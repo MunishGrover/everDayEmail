@@ -41,7 +41,7 @@ User.find({})
           user.forEach((user)=>{
 
               cron.schedule('00 8 * * *', () => {
-                  console.log(`Runing a job at 01:00 at ${user.timezone} timezone for ${user.name}`);
+                  console.log(`Good Morning email 08:00 at ${user.timezone} timezone for ${user.name}`);
               }, {
 
                   timezone: user.timezone
