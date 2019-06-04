@@ -1,0 +1,24 @@
+{
+  "name": "everydaymail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test1.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "MunishGrover",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-validator": "^5.3.1",
+    "mongoose": "^5.5.12",
+    "node": "^12.3.1",
+    "node-cron": "^2.0.3",
+    "validator": "^11.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
