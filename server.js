@@ -39,8 +39,9 @@ User.find({})
     .then(user=>{
         if(user){
           user.forEach((user)=>{
-                //this will be replaced by nodemailer API
+               
               cron.schedule('00 8 * * *', () => {
+                   //this will be replaced by nodemailer API
                   console.log(`Good Morning email 08:00 at ${user.timezone} timezone for ${user.name}`);
               }, {
 
